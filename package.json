@@ -1,0 +1,31 @@
+{
+  "name": "rvhb-landing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/node": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "@netlify/plugin-nextjs": "latest"
+  },
+  "engines": {
+    "node": ">=18.18.0 <23"
+  }
+}
